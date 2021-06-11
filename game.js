@@ -6,7 +6,7 @@ var started = false;
 
 
 
-$(document).keydown(function() {
+$(document).touchstart(function() {
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();
